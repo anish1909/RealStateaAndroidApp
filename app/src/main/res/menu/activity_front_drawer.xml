@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/viewgallery"
+
+            android:title="Gallery" />
+        <item
+            android:id="@+id/locations"
+
+            android:title="Our Locations" />
+        <item
+            android:id="@+id/testimonials"
+
+            android:title="Testimonials" />
+        <item
+            android:id="@+id/contactus"
+
+            android:title="Contact-Us" />
+        <item
+            android:id="@+id/connecttous"
+
+            android:title="Contnect-To-Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:title="Feedback"/>
+
+
+            <item
+                android:id="@+id/rateus"
+
+                android:title="Rate-Us" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

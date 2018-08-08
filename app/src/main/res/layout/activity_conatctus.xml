@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact"
+    tools:context=".Conatctus">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:text="CONTACT US"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="125dp"
+        android:background="@android:color/holo_green_light"
+        android:hint="Enter Your Name"
+        android:textColorHint="#f819e5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="242dp"
+        android:background="@android:color/holo_green_light"
+        android:ems="10"
+        android:hint="Enter Your Email ID"
+        android:inputType="textPersonName"
+        android:textColorHint="#f819e5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="220dp"
+        android:background="@android:color/holo_green_light"
+        android:ems="10"
+        android:hint="Enter YOur Phone No"
+        android:inputType="phone"
+        android:textColorHint="#f819e5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="117dp"
+        android:background="@android:color/holo_green_light"
+        android:ems="10"
+        android:hint="Properties Interested In"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textColorHint="#f819e5"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Submit Info"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</RelativeLayout>
